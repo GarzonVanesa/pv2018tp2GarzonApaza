@@ -11,21 +11,21 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Punto03 {
-    public int contador; public static void main(String[] args ){
-        try {
+    public int contador; 
+    
+    public static void main(String[] args ){
+        
             Scanner dato = new Scanner(System.in);
             Fecha fech = new Fecha();
-             System.out.println("Ingrese el valor para el dia: ");
+            System.out.println("Ingrese el valor para el dia: ");
             fech.setDia(dato.next());
             System.out.println("Ingrese el valor para el mes: ");
             fech.setMes(dato.next());
             System.out.println("Ingrese el valor para el año: ");
             fech.setAnio(dato.next());
-            fech.DevolverDiferencaDias(, fechaFinal);
+            //fech.DevolverDiferencaDias(, fechaFinal);
             
-        } catch (ParseException ex) {
-            Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
     }
    
     
